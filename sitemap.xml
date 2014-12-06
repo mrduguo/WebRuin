@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+  <loc>http://smithdesign.info/cart.html</loc>
+  <lastmod>2014-11-08T19:10:41.000Z</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>http://smithdesign.info/checkout.html</loc>
+  <lastmod>2014-11-08T19:10:41.000Z</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>http://smithdesign.info/googleffe015b7a0e318e0.html</loc>
+  <lastmod>2014-11-08T19:10:41.000Z</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>http://smithdesign.info/</loc>
+  <lastmod>2014-11-09T06:40:10.000Z</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>http://smithdesign.info/invoice.html</loc>
+  <lastmod>2014-11-08T19:10:41.000Z</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>http://smithdesign.info/resume.html</loc>
+  <lastmod>2014-11-08T19:10:41.000Z</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.5</priority>
+</url>
+</urlset>
