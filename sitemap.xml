@@ -3,37 +3,49 @@
 	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
   <loc>http://smithdesign.info/cart.html</loc>
-  <lastmod>2014-11-08T19:10:41.000Z</lastmod>
+  <lastmod>2014-12-09T22:10:38.000Z</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>http://smithdesign.info/checkout.html</loc>
-  <lastmod>2014-11-08T19:10:41.000Z</lastmod>
+  <lastmod>2014-12-09T22:10:30.000Z</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>http://smithdesign.info/google8474cc8f3227b1d2.html</loc>
+  <lastmod>2014-11-21T17:14:36.000Z</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>http://smithdesign.info/googleffe015b7a0e318e0.html</loc>
-  <lastmod>2014-11-08T19:10:41.000Z</lastmod>
+  <lastmod>2014-12-09T22:07:27.000Z</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>http://smithdesign.info/</loc>
-  <lastmod>2014-11-09T06:40:10.000Z</lastmod>
+  <lastmod>2014-12-10T00:30:44.000Z</lastmod>
+  <changefreq>daily</changefreq>
+  <priority>0.5</priority>
+</url>
+<url>
+  <loc>http://smithdesign.info/index2.html</loc>
+  <lastmod>2014-12-10T01:35:59.000Z</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>http://smithdesign.info/invoice.html</loc>
-  <lastmod>2014-11-08T19:10:41.000Z</lastmod>
+  <lastmod>2014-12-09T22:10:19.000Z</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.5</priority>
 </url>
 <url>
   <loc>http://smithdesign.info/resume.html</loc>
-  <lastmod>2014-11-08T19:10:41.000Z</lastmod>
+  <lastmod>2014-12-09T22:10:06.000Z</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.5</priority>
 </url>
