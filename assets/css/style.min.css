@@ -237,6 +237,8 @@ p {
   height: 100%;
   position: relative;
   z-index: 1;
+  background: url(../img/London.png?sio-img-quality=0.1) no-repeat center center fixed;
+  background-size: cover;
 }
 
 .cd-fixed-bg {

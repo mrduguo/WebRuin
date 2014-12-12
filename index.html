@@ -28,25 +28,14 @@
     <meta name="msapplication-TileImage" content="/mstile-144x144.png">
 
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <script async src='https://www.google.com/recaptcha/api.js'></script>
 
     <link href="//www.google-analytics.com" rel="dns-prefetch">
     <link href="//ajax.googleapis.com" rel="dns-prefetch">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.min.css?sio-css-embed=enabled&sio-css-uncss=enabled">
+    <link rel="stylesheet" href="assets/components/bootstrap.css">
+    <link rel="stylesheet" href="assets/components/bootstrap-theme.css">
 
-    <script>
-    var cb = function() {
-        var l = document.createElement('link');
-        l.rel = 'stylesheet';
-        l.href = 'assets/css/style.min.css';
-        var h = document.getElementsByTagName('head')[0];
-        h.parentNode.insertBefore(l, h);
-    };
-    var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-        webkitRequestAnimationFrame || msRequestAnimationFrame;
-    if (raf) raf(cb);
-    else window.addEventListener('load', cb);
-    </script>
+    <script async src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 <body>
@@ -246,8 +235,6 @@
     </script>
     <script async src="assets/js/scripts.min.js"></script>
     <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <script async src="assets/components/modernizr.min.js"></script>
 
     <script>
@@ -268,6 +255,7 @@
     ga('send', 'pageview');
     </script>
 
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 </body>
 
 </html>
