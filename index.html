@@ -1,7 +1,6 @@
 <!doctype html>
 <html class="no-js">
-
-<head>
+  <head>
     <meta charset="utf-8">
     <title>WebRuin</title>
 
@@ -28,222 +27,308 @@
     <meta name="msapplication-TileImage" content="/mstile-144x144.png">
 
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <script async src='https://www.google.com/recaptcha/api.js'></script>
 
     <link href="//www.google-analytics.com" rel="dns-prefetch">
     <link href="//ajax.googleapis.com" rel="dns-prefetch">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
     <script>
-    var cb = function() {
-        var l = document.createElement('link');
-        l.rel = 'stylesheet';
+      var cb = function() {
+      var l = document.createElement('link'); l.rel = 'stylesheet';
         l.href = 'assets/css/style.min.css';
-        var h = document.getElementsByTagName('head')[0];
-        h.parentNode.insertBefore(l, h);
-    };
-    var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-        webkitRequestAnimationFrame || msRequestAnimationFrame;
-    if (raf) raf(cb);
-    else window.addEventListener('load', cb);
+        var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+      };
+      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+          webkitRequestAnimationFrame || msRequestAnimationFrame;
+      if (raf) raf(cb);
+      else window.addEventListener('load', cb);
     </script>
 </head>
 
 <body>
 
-    <header class="cd-header">
+  <header class="cd-header">
     <div id="cd-logo"><a href="#0"><img src="assets/img/logo.png" style="width: 200px; height:auto; margin: -1em 0 0 -1em;" alt="Logo"></a></div>
 
     <nav class="cd-main-nav">
-      <ul>
-        <!-- inser more links here -->
-        <li><a href="#0">Home</a></li>
-        <li><a href="#0">About</a></li>
-        <li><a href="#0">Pricing</a></li>
-        <li><a href="#0">Gallery</a></li>
-        <li><a href="#0">Contact <i class="fa fa-external-link"></i></a></li>
-      </ul>
-    </nav> <!-- cd-main-nav -->
   </header>
+  <body>
+    <header itemscope itemtype="http://schema.org/Organization" class="header" id="header" role="banner">
+        <a href="#main">Webruin</a>
+      <h2>Learn &nbsp Play &nbsp Code</h2>
+      <span class="arrow"></span>
+    </header>
+    <nav id="nav" class="nav mainNav" role="navigation">
+      <ul>
+        <li>
+          <a href="#home" id="navHome2">Home</a>
+        </li>
+        <li>
+          <a href="#learn" id="navLearn">Learn</a>
+        </li>
+        <li>
+          <a href="#play" id="navPlay">Play</a>
+        </li>
+        <li>
+          <a href="#code" id="navCode">Code</a>
+        </li>
+        <li>
+          <a href="resume.html" id="navCode">My Resume</a>
+        </li>
+      </ul>
+    </nav>
 
-  <main class="cd-main-content">
-    <div id="snow" class="snow cd-fixed-bg cd-bg-1" itemscope itemtype="http://schema.org/Organization" class="header" id="header" role="banner">
-        <a class="logo" href="#main">Webruin</a>
-        <h2>Learn &nbsp Play &nbsp Code</h2>
-        <span class="arrow"></span>
-    </div> <!-- cd-fixed-bg -->
-
-    <div class="cd-scrolling-bg cd-color-2">
-      <div class="cd-container">
-        <h2>WebRuin</h2>
-        <h3>Who is WebRuin?</h3>
-        <p>The idea of building a website for your business may seem daunting. You don’t know where to start. You lack the technical skills to do it yourself ... not to mention the time. You fear you can’t afford it. That’s where WebRuin we can help. Our professional web designers remove the stress and anxiety of building a great site that will drive your online business. We make it easy! Here’s how ...</p>
-        <ul>
-          <li>We make the process simple and easy so you don’t have to sweat the details.</li>
-          <li>We offer a variety of professional packages to meet your individual needs.</li>
-          <li>We also offer mobile websites to meet the demands of the growing number of smartphone users.</li>
-          <li>We offer continuous support ... for whenever you need it.</li>
-          <li>We offer training and free consultations.</li>
-          <li>We take care of web hosting ... SEO ... Maintenance ... and much more.</li>
-          <li>And, best of all, we make ALL it very affordable to fit your budget.</li>
-        </ul>
-      </div> <!-- cd-container -->
-    </div> <!-- cd-scrolling-bg -->
-
-    <div class="cd-fixed-bg cd-bg-2">
-      <h2>Services</h2>
-    </div> <!-- cd-fixed-bg -->
-
-    <div class="cd-scrolling-bg cd-color-3">
-      <div  id="services" class="cd-container">
-        <div class="services row">
-          <div class="col-sm-4">
-            <i class="fa fa-4x fa-paint-brush"></i>
-            <h2 class="h3">Beautiful Design</h2>
-            <p>Every website is beautiful, unique and tailored to suit your needs and requirements.</p>
+    <main id="main" class="main" role="main">
+        <section id="info" class="info">
+          <section id="infoHome" class="infoHome">
+            <div class="infoPic"></div>
+            <div class="infoRight">
+              <h1>WebRuin</h1>
+              <h2>Who is WebRuin?</h2>
+              <p>
+                The idea of building a website for your business may seem daunting. You don’t know where to start. You lack the technical skills to do it yourself ... not to mention the time. You fear you can’t afford it. That’s where WebRuin we can help. Our professional web designers remove the stress and anxiety of building a great site that will drive your online business. We make it easy! Here’s how ...
+              </p>
+              <ul>
+                <li>We make the process simple and easy so you don’t have to sweat the details.</li>
+                <li>We offer a variety of professional packages to meet your individual needs.</li>
+                <li>We also offer mobile websites to meet the demands of the growing number of smartphone users.</li>
+                <li>We offer continuous support ... for whenever you need it.</li>
+                <li>We offer training and free consultations.</li>
+                <li>We take care of web hosting ... SEO ... Maintenance ... and much more.</li>
+                <li>And, best of all, we make ALL it very affordable to fit your budget.</li>
+              </ul>
+            </div>
+            <div class="infoLeft">
+              <h2>What else?</h2>
+              <p>
+                Of course WebRuin is more than a Web Site Builder.  On this site you will also find...
+              </p>
+              <ul>
+                <li>Links to code schools along with other recourses to help motivate you and help you <a href="#learn" id="navLearnLink">learn</a>.</li>
+                <li>On this site you will also be able to <a href="#play" id="navPlayLink">play</a> with code examples, see how the work, and edit them to your hearts content.</li>
+            </div>
+          </section>
+          <section id="infoLearn" class="infoLearn">
+            <p></p>
+          </section>
+          <section id="infoPlay" class="infoPlay">
+            <h1>Play with code</h1>
+            <p data-height="371" data-theme-id="9654" data-slug-hash="tnoek" data-default-tab="result" data-user="timbo27" class='codepen'>See the Pen <a href='http://codepen.io/timbo27/pen/tnoek/'>Css Hacker Glider</a> by Tim Smith (<a href='http://codepen.io/timbo27'>@timbo27</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+            <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+          </section>
+          <section id="infoCode" class="infoCode">
+            <p>dfxgbdfg gdsfgf fsdg f tgs sdfg 444</p>
+          </section><div class="clearfix"></div>
+        </section>
+      <section id="home grey-noise" class="home">
+        <div id="content">
+          <div id="products">
+            <ul>
+              <li> 
+                <div itemscope itemtype="http://data-vocabulary.org/Product" class="product-description" data-name="Starter Site" data-price="400">
+                  <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <h3 itemprop="name" class="product-name">Starter Site</h3>
+                    <span itemprop="description">
+                      <p>This is a simple 3-5 page business card static web site</p>
+                      <ul>
+                        <li class="desc">Built on <a href="//getfireshell.com/" target="_blank">Fireshell</a> for a fast, bullet proof site.</li>
+                        <li class="desc">Hosted on <a href="//www.godaddy.com/">Godaddy</a></li>
+                        <li class="desc">Custom URL (Domain Name) pending avalibility</li>
+                      </ul>
+                    </span>
+                    <span itemprop="availability">Great Value</span>
+                    <p itemprop="price" class="product-price">$400.00</p>
+                    <meta itemprop="priceCurrency" content="USD" />
+                  </div>
+                  <form class="add-to-cart" action="cart.html" method="post">
+                    <div>
+                      <label content="in_stock" for="qty-1">Quantity</label>
+                      <input type="text" name="qty-1" id="qty-1" class="qty" value="1" />
+                    </div>
+                    <p><input type="submit" value="Add to cart" class="btn" /></p>
+                  </form>
+                  <div class="clearfix"></div>
+                </div>
+              </li>
+              
+              <li>
+                <div itemscope itemtype="http://data-vocabulary.org/Product" class="product-description red" data-name="Basic Site" data-price="600">
+                  <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <h3 itemprop="name" class="product-name">Basic Site</h3>
+                    <span itemprop="description">
+                      <p>This is a basic 5-10 page web site</p>
+                      <ul>
+                        <li class="desc">Built on <a href="//getfireshell.com/" target="_blank">Fireshell</a> for a fast, bullet proof site.</li>
+                        <li class="desc">Or built on <a href="//wordpress.org/" target="_blank">Wordpress</a> for a powerful web site or blog</li>
+                        <li class="desc">Pre-built Wordpress template if you choose Wordpress</li>
+                        <li class="desc">Hosted on <a href="//www.godaddy.com/">Godaddy</a></li>
+                        <li class="desc">Custom URL (Domain Name) pending avalibility</li>
+                      </ul>
+                    </span>
+                    <span itemprop="availability">Great Value</span>
+                    <p itemprop="price" class="product-price">$600.00</p>
+                    <meta itemprop="priceCurrency" content="USD" />
+                  </div>
+                  <form class="add-to-cart" action="cart.html" method="post">
+                    <div>
+                      <label for="qty-2">Quantity</label>
+                      <input content="in_stock" type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                    </div>
+                    <p><input type="submit" value="Add to cart" class="btn" /></p>
+                  </form>
+                  <div class="clearfix"></div>
+                </div>
+              </li>
+              
+              <li>
+                <div itemscope itemtype="http://data-vocabulary.org/Product" class="product-description" data-name="Pro Site" data-price="11">
+                  <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
+                    <h3 itemprop="name" class="product-name">Pro Site</h3>
+                    <span itemprop="description">
+                      <p>This is a professional/business dynamic web site</p>
+                      <ul>
+                        <li class="desc">Built on <a href="//wordpress.org/" target="_blank">Wordpress</a>, <a href="//rubyonrails.org" target="_blank">Wordpress</a>, or <a href="//getfireshell.com/" target="_blank">Fireshell</a></li>
+                        <li class="desc">Custom Wordpress template if you choose Wordpress</li>
+                        <li class="desc">Optional Responsive Layout so your site looks great on mobile and tablet</li>
+                        <li class="desc">Hosted on <a href="//www.godaddy.com/">Godaddy</a></li>
+                        <li class="desc">Custom URL (Domain Name) pending avalibility</li>
+                      </ul>
+                    </span>
+                    <span itemprop="availability">Great Value</span>
+                    <p itemprop="price" class="product-price">$800.00-$1000.00</p>
+                    <meta itemprop="priceCurrency" content="USD" />
+                  </div>
+                  <form class="add-to-cart" action="cart.html" method="post">
+                    <div>
+                      <label for="qty-3">Quantity</label>
+                      <input type="text" name="qty-3" id="qty-3" class="qty" value="1" />
+                    </div>
+                    <p content="in_stock"><input type="submit" value="Add to cart" class="btn" /></p>
+                  </form>
+                  <div class="clearfix"></div>
+                </div>
+              </li>
+            </ul>
           </div>
-          <div class="col-sm-4">
-            <i class="fa fa-4x fa-code"></i>
-            <h2 class="h3">Clean Code</h2>
-            <p>All websites are written in valid and clean HTML5 / CSS3 & JavaScript (jQuery).</p>
+
+          <div class="ads">
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- SD Leader -->
+            <ins class="adsbygoogle"
+                 data-ad-client="ca-pub-5550005578045505"
+                 data-ad-slot="3428461094"></ins>
+            <script>
+              (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- SD Leader -->
+            <ins class="adsbygoogle"
+                 data-ad-client="ca-pub-5550005578045505"
+                 data-ad-slot="3428461094"></ins>
+            <script>
+              (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <!-- SD Leader -->
+            <ins class="adsbygoogle"
+                 data-ad-client="ca-pub-5550005578045505"
+                 data-ad-slot="3428461094"></ins>
+            <script>
+              (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
           </div>
-          <div class="col-sm-4">
-            <i class="fa fa-4x fa-tablet"></i>
-            <h2 class="h3">Always Responsive</h2>
-            <p>All websites are responsive. They will look great on desktop, tablets and mobile phones too.</p>
-          </div>
+
+          <div class="clearfix"></div>
         </div>
-      </div>
-    </div> <!-- cd-scrolling-bg -->
+        <div class="clearfix"></div>
+      </section>
+      <section id="learn" class="learn">
+        <h2>Learn</h2>
+        <div class="learnBox">
+          <a href="#">
+            <div class="box" id="code2">
+              1
+            </div>
+          </a>
+          <a href="#">
+            <div class="box">
+              2
+            </div>
+          </a>
+          <a href="#">
+            <div class="box">
+              3
+            </div>
+          </a>
+          <a href="#">
+            <div class="box">
+              4
+            </div>
+          </a>
+          <a href="#">
+            <div class="box">
+              5
+            </div>
+          </a>
+          <a href="#">
+            <div class="box">
+              h6
+            </div>
+          </a>
+        </div>
+        <div class="clearfix"></div>
+      </section>
+      <section id="play" class="play">
+        <h1>Play with code</h1>
+        <div class="codeView">
+          <p data-height="600" data-width="75%" data-theme-id="9654" data-slug-hash="tnoek" data-default-tab="result" data-user="timbo27" class='codepen'>See the Pen <a href='http://codepen.io/timbo27/pen/tnoek/'>Css Hacker Glider</a> by Tim Smith (<a href='http://codepen.io/timbo27'>@timbo27</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+          <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+          <script async src="//http://cdnjs.cloudflare.com/ajax/libs/jquery-color/2.1.2/jquery.color.js"></script>
+        </div>
 
-    <div class="cd-fixed-bg cd-bg-3">
-      <h2>What else?</h2>
-    </div> <!-- cd-fixed-bg -->
+        <div class="ads">
+          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <!-- SD Leader -->
+          <ins class="adsbygoogle"
+               data-ad-client="ca-pub-5550005578045505"
+               data-ad-slot="3428461094"></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
 
-    <div class="cd-scrolling-bg cd-color-1">
-      <div class="cd-container">
-        <p>Of course WebRuin is more than a Web Site Builder. On this site you will also find...</p>
-        <p>Links to code schools along with other recourses to help motivate you and help you learn.</p>
-        <p>On this site you will also be able to play with code examples, see how the work, and edit them to your hearts content.</p>
-      </div> <!-- cd-container -->
-    </div> <!-- cd-scrolling-bg -->
+          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <!-- SD Leader -->
+          <ins class="adsbygoogle"
+               data-ad-client="ca-pub-5550005578045505"
+               data-ad-slot="3428461094"></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
 
-    <div id="snow2" class="snow cd-fixed-bg cd-bg-4">
-      <h1 class="logo">WebRuin</h1>
-      <a style="margin:0 auto; margin-top: 15%;" class="coinbase-button" data-code="0715ef0f6685fbda99089ae2e4091cea" data-button-style="custom_small" data-custom="WebRuin123" href="https://www.coinbase.com/checkouts/0715ef0f6685fbda99089ae2e4091cea">Donate Bitcoins</a><script src="https://www.coinbase.com/assets/button.js" type="text/javascript"></script>
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="A5HTUPMLNBHZG">
-<input type="image" src="https://www.paypal.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
-    </div> <!-- cd-fixed-bg -->
-  </main>
+          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <!-- SD Leader -->
+          <ins class="adsbygoogle"
+               data-ad-client="ca-pub-5550005578045505"
+               data-ad-slot="3428461094"></ins>
+          <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+          </script>
+        </div>
 
-    <script type="text/javascript">
-// Snow from http://codepen.io/radum/pen/xICAB
+        <div class="clearfix"></div>
+      </section>
+      <section id="code" class="code">
+        <h2>Code</h2>
+      </section><div class="clearfix"></div>
+    </main>
 
-(function () {
-
-  var COUNT = 300;
-  var masthead = document.querySelector('#snow, #snow2');
-  var canvas = document.createElement('canvas');
-  var ctx = canvas.getContext('2d');
-  var width = masthead.clientWidth;
-  var height = masthead.clientHeight;
-  var i = 0;
-  var active = false;
-
-  function onResize() {
-    width = masthead.clientWidth;
-    height = masthead.clientHeight;
-    canvas.width = width;
-    canvas.height = height;
-    ctx.fillStyle = '#FFF';
-
-    var wasActive = active;
-    active = width > 600;
-
-    if (!wasActive && active)
-      requestAnimFrame(update);
-  }
-
-  var Snowflake = function () {
-    this.x = 0;
-    this.y = 0;
-    this.vy = 0;
-    this.vx = 0;
-    this.r = 0;
-
-    this.reset();
-  }
-
-  Snowflake.prototype.reset = function() {
-    this.x = Math.random() * width;
-    this.y = Math.random() * -height;
-    this.vy = 1 + Math.random() * 3;
-    this.vx = 0.5 - Math.random();
-    this.r = 1 + Math.random() * 2;
-    this.o = 0.5 + Math.random() * 0.5;
-  }
-
-  canvas.style.position = 'absolute';
-  canvas.style.left = canvas.style.top = '0';
-
-  var snowflakes = [], snowflake;
-  for (i = 0; i < COUNT; i++) {
-    snowflake = new Snowflake();
-    snowflake.reset();
-    snowflakes.push(snowflake);
-  }
-
-  function update() {
-
-    ctx.clearRect(0, 0, width, height);
-
-    if (!active)
-      return;
-
-    for (i = 0; i < COUNT; i++) {
-      snowflake = snowflakes[i];
-      snowflake.y += snowflake.vy;
-      snowflake.x += snowflake.vx;
-
-      ctx.globalAlpha = snowflake.o;
-      ctx.beginPath();
-      ctx.arc(snowflake.x, snowflake.y, snowflake.r, 0, Math.PI * 2, false);
-      ctx.closePath();
-      ctx.fill();
-
-      if (snowflake.y > height) {
-        snowflake.reset();
-      }
-    }
-
-    requestAnimFrame(update);
-  }
-
-  // shim layer with setTimeout fallback
-  window.requestAnimFrame = (function(){
-    return  window.requestAnimationFrame       ||
-            window.webkitRequestAnimationFrame ||
-            window.mozRequestAnimationFrame    ||
-            function( callback ){
-              window.setTimeout(callback, 1000 / 60);
-            };
-  })();
-
-  onResize();
-  window.addEventListener('resize', onResize, false);
-
-  masthead.appendChild(canvas);
-})();
-    </script>
+    <footer class="footer" role="contentinfo">
+      WebRuin &#169; 2014
+    </footer>
 
     <script async src="//code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script>
-    window.jQuery || document.write('<script src="assets/components/jquery.js"><\/script>');
-    </script>
+    <script>window.jQuery || document.write('<script src="assets/components/jquery.js"><\/script>');</script>
     <script async src="assets/js/scripts.min.js"></script>
     <script async src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
@@ -251,23 +336,16 @@
     <script async src="assets/components/modernizr.min.js"></script>
 
     <script>
-    (function(i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function() {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-56453428-1', 'auto');
-    ga('require', 'displayfeatures');
-    ga('send', 'pageview');
+      ga('create', 'UA-56453428-1', 'webruin.co.uk');
+      ga('require', 'displayfeatures');
+      ga('send', 'pageview');
+
     </script>
 
-</body>
-
+  </body>
 </html>
